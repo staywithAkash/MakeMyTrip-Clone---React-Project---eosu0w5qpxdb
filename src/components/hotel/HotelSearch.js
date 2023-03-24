@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Hotel_api } from "../Fetchs/fetch";
+import { Hotel_api } from "../Fetchs/Fetchs";
 import "./hotel.css";
 
 const HotelSearch = ({

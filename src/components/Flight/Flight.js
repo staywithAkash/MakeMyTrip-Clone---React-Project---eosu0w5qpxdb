@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Header from "../Header/Header";
-import { flight_api } from "../Fetchs/fetch";
+import { flight_api } from "../Fetchs/Fetchs";
 import FlightSearch from "./FlightSearch";
 import SearchResult from "./SearchResult";
 

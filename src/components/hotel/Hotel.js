@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Header from "../Header/Header";
 import HotelSearch from "./HotelSearch";
 import HSearchRes from "./HSearchRes";
-import { Hotel_api } from "../Fetchs/fetch";
+import { Hotel_api } from "../Fetchs/Fetchs";
 
 const MasterHotel = ({ modal2Open, setModal2Open }) => {
   const [from, setfrom] = useState("");

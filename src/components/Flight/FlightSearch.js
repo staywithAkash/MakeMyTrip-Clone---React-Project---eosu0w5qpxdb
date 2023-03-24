@@ -1,5 +1,5 @@
 import React, { useState, useEffect,useRef } from "react";
-import {flight_api}  from "../Fetchs/fetch";
+import {flight_api}  from "../Fetchs/Fetchs";
 import "./flight.css";
 
 const FlightSearch = ({
